@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(138, 253, 138);
+    font-family: 'Fruktur', cursive;
+}
+
+h1 {
+    color: blueviolet;
+    background-color: cornsilk;
+    border: 5px solid blue;
+    border-radius: 20px;
+}
+
+#show_sketch {
+    float: right;
+}
+
+canvas {
+    border: 5px solid blue;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+
+#show_sketch:hover {
+    background-image: linear-gradient(to top right, #9d00ff, #FFFB00);
+}
+
+#me:hover {
+    background-image: linear-gradient(to top right, red, red, red);
+}
+
+
+@keyframes example {
+    0% {
+        box-shadow: 1px 1px 50px red;
+    }
+
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+
+    62.5% {
+        box-shadow: 1px 1px 50px blue;
+    }
+
+    75% {
+        box-shadow: 1px 1px 50px purple;
+    }
+
+    87.5% {
+        box-shadow: 1px 1px 50px orange;
+    }
+
+    100% {
+        box-shadow: 1px 1px 50px green;
+    }
+}
+
+#i {
+    animation-name: i;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes i {
+    0% {
+        box-shadow: 1px 1px 50px red;
+    }
+
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+
+    62.5% {
+        box-shadow: 1px 1px 50px blue;
+    }
+
+    75% {
+        box-shadow: 1px 1px 50px purple;
+    }
+
+    87.5% {
+        box-shadow: 1px 1px 50px orange;
+    }
+
+    100% {
+        box-shadow: 1px 1px 50px green;
+    }
+}
+
+#show_sketch {
+    animation-name: show_sketch;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes show_sketch {
+    0% {
+        box-shadow: 1px 1px 50px red;
+    }
+
+    25% {
+        box-shadow: 1px 1px 50px yellow;
+    }
+
+    62.5% {
+        box-shadow: 1px 1px 50px blue;
+    }
+
+    75% {
+        box-shadow: 1px 1px 50px purple;
+    }
+
+    87.5% {
+        box-shadow: 1px 1px 50px orange;
+    }
+
+    100% {
+        box-shadow: 1px 1px 50px green;
+    }
+}
+
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
